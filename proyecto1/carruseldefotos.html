@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sobrenoso</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript">
+
+		function iniciar(){
+		console.log("INICIANDO");
+		setTimeout(cargarImagen2,2000);
+		}
+
+		function cargarImagen2(){
+		var imagen = document.getElementById("foto");
+		imagen.src="img/2.PNG";
+			}
+
+	</script>
+	<style type="text/css">
+		#galeria{
+			width: 640px;
+			margin: auto;
+		}
+	</style>
+</head>
+<body onload="iniciar()">
+	<div id="galeria">
+		<img id="foto" src="img/1.PNG">
+		
+	</div>
+</body>
+</html>

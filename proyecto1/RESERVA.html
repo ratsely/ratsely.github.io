@@ -1,0 +1,86 @@
+
+<html lang="es">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Reserva</title>
+	<style>
+	ul{
+		list-style-type: none;
+		width:700px;
+		margin:auto;
+
+	}
+	li{
+		float:left;
+		background-color:#AAAAAA;
+		padding:10px;
+	}
+	li:hover{
+		background-color:#7ac5cd;
+		color:white;
+	}
+	a{
+		text-decoration: none;
+		color:white;
+	}
+</style>
+</head>
+<body>
+	<div id="total">
+			<div id="menu">
+				<ul>
+					<a href="inicio.html"><li>INICIO</li></a>
+					<a href="Carta.html"><li>CARTA</li></a>
+					<a href="Cartadevinos.html"><li>CARTA DE VINOS</li></a>
+					<a href="RESERVA.html"><li>RESERVA</li></a>
+					<a href="dondeestamos.html"><li>DONDE ESTAMOS</li></a>
+				</ul>
+			</div>
+			<div id="cabecera">
+				<div id="logo"><h1><img src="img/d.png" width="110px">Dalia</h1></div>
+			</div>
+		</div>
+	<div id="bodyr">
+	<form>
+		<fieldset><legend>Haz tu reserva ya</legend>
+		<label for="Nombre">Nombre</label>
+			<input type="text"id="Nombre" name="Nombre" placeholder="Nombre" maxlength="20" required>
+		<br><br>
+		<label for="Nombre">Apellidos</label>
+			<input type="text"id="Nombre" name="Nombre" placeholder="Nombre" maxlength="20" required>
+		<br><br>
+		<label for="numero">Número de teléfono</label>
+			<input type="tel" id="numero" name="teléfono" maxlength="9"placeholder="(+34 XXX XXX XXX)" required>
+		<br><br>
+		<label for="email">Email</label>
+			<input type="email" id="email" name="email" >
+		<br><br>
+		<label for="date">Dia de la reserva</label>
+			<input type="date"id="date" name="date" value="2018-01-01" min="2018-01-01" max=" 220-01-01">
+		<br><br>
+		<label for="date">Hora</label>
+			<input type="time"id="time" name="time">
+		<br><br>
+		<label for="Descripción de poderes">Sugerencias</label><br>
+			<textarea rows="5" cols="50"></textarea>
+	
+	<br><br>
+	<div id="pie">
+		<div id="piedepagina2">
+			<input id="reset" class="boton" type="reset" value="Reset">
+		</div>
+		<div id="piedepagina1">
+			<input id="enviar" class="boton" type="button" value="Enviar">
+		</div>
+		</fieldset>
+	</div>
+	</form>
+	<div id="dalias">
+	</div>
+</body>
+
+</html>

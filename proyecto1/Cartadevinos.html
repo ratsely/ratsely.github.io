@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Carta de vinos</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+		<style>
+	ul{
+		list-style-type: none;
+		width:700px;
+		margin:auto;
+
+	}
+	li{
+		float:left;
+		background-color:#AAAAAA;
+		padding:10px;
+	}
+	li:hover{
+		background-color:#7ac5cd;
+		color:white;
+	}
+	a{
+		text-decoration: none;
+		color:white;
+	}
+</style>
+	<script>
+		function vino(){
+			var divDescripcion = document.getElementById("descripcion");
+			divDescripcion.innerHTML="<FIELDSET><LEGEND>UN POQUITO DE INFORMACION</LEGEND><h6>VINOS ECOLOGICOS<h6>Dominio de Tares Cepas Viejas 2014<br>Mencía. D.O. BIERZO 30,00 € <BR><BR> Summa Varietalis 2012. B.Marqués de Griñon<br>Garnacha, Petit verdot. D.O. DOMINIO DE VALDEPUSA24,50 €<BR><BR>Tres Picos 2015. Borsao Garnacha. D.O. <br>CAMPO DE BORJA34,00 €</FIELDSET>";
+		}
+		function vino1(){
+			var divDescripcion = document.getElementById("descripcion");
+			divDescripcion.innerHTML="<FIELDSET><LEGEND>UN POQUITO DE INFORMACION</LEGEND><h6>VINOS ESPUMOSOS<h6>Dominio de Tares Cepas Viejas 2014<br>Mencía. D.O. BIERZO 30,00 € <BR><BR> Summa Varietalis 2012. B.Marqués de Griñon<br>Garnacha, Petit verdot. D.O. DOMINIO DE VALDEPUSA24,50 €<BR><BR>Tres Picos 2015. Borsao Garnacha. D.O. <br>CAMPO DE BORJA34,00 €</FIELDSET>";
+		}
+		function vino2(){
+			var divDescripcion = document.getElementById("descripcion");
+			divDescripcion.innerHTML="<FIELDSET><LEGEND>UN POQUITO DE INFORMACION</LEGEND><h6>VINOS ROSADOS<h6>Dominio de Tares Cepas Viejas 2014<br>Mencía. D.O. BIERZO 30,00 € <BR><BR> Summa Varietalis 2012. B.Marqués de Griñon<br>Garnacha, Petit verdot. D.O. DOMINIO DE VALDEPUSA24,50 €<BR><BR>Tres Picos 2015. Borsao Garnacha. D.O. <br>CAMPO DE BORJA34,00 €</FIELDSET>";
+		}
+		function vino3(){
+			var divDescripcion = document.getElementById("descripcion");
+			divDescripcion.innerHTML="<FIELDSET><LEGEND>UN POQUITO DE INFORMACION</LEGEND><h6>VINOS TINTOS<h6>Dominio de Tares Cepas Viejas 2014<br>Mencía. D.O. BIERZO 30,00 € <BR><BR> Summa Varietalis 2012. B.Marqués de Griñon<br>Garnacha, Petit verdot. D.O. DOMINIO DE VALDEPUSA24,50 €<BR><BR>Tres Picos 2015. Borsao Garnacha. D.O. <br>CAMPO DE BORJA34,00 €</FIELDSET>"
+		}
+	</script>
+</head>
+<body>
+	<div id="total">
+			<div id="menu">
+				<ul>
+					<a href="inicio.html"><li>INICIO</li></a>
+					<a href="Carta.html"><li>CARTA</li></a>
+					<a href="Cartadevinos.html"><li>CARTA DE VINOS</li></a>
+					<a href="RESERVA.html"><li>RESERVA</li></a>
+					<a href="dondeestamos.html"><li>DONDE ESTAMOS</li></a>
+				</ul>
+			</div>
+			<div id="cabecera">
+				<div id="logo"><h1><img src="img/d.png" width="110px">Dalia</h1>
+				</div>
+			</div>
+
+	<h1 class="f">Hoy y siempre</h1>
+		<div id="cv">
+			<div class="cvinos"><img class="mitad"src="img/ec.jpg"alt="1" onmouseover="vino()" onmouseleave="limpiar()"> 
+			</div>
+			<div class="cvinos"><img class="mitad"src="img/vb.jpg"alt="2" onmouseover="vino1()" onmouseleave="limpiar1()">
+			</div>
+			<div class="cvinos"><img class="mitad" src="img/vrdjpg.jpg"alt="3" onmouseover="vino2()" onmouseleave="limpiar2()">
+			</div>
+			<div class="cvinos"><img class="mitad"src="img/vt.jpg"alt="4" onmouseover="vino3()" onmouseleave="limpiar3()">
+			</div>	
+		</div>
+		<div id="descripcion"></div>
+		</div>
+</body>
+</html>

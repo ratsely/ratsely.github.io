@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Examen Módulo2</title>
+	<link rel="stylesheet" type="text/css" href="css/modulo3.css">
+	<link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Galada|Indie+Flower" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Patua+One|Song+Myung" rel="stylesheet">
+	<script src="js/js.js"></script>
+</head>
+
+<body>
+	<div id="formulario">
+		<form>
+			<div id="encabezado">
+				<h1>
+					<img src="img/cice.png" width="100px">FORMULARIO WEB</h1>
+			</div>
+			<div id="divdatospersonales">
+				<fieldset>
+					<legend>Datos personales</legend>
+					<br>
+					<br>
+					<label for="Nombre">Nombre:</label>
+					<input type="text" id="name" name="name" required>
+					<br>
+					<br>
+					<br>
+					<br>
+					<label for="Nombre">Apellidos:</label>
+					<input type="text" id="surname" name="surname" required>
+					<br>
+					<br>
+					<br>
+					<br>
+					<label for="numero">D.N.I:</label>
+					<input type="text" id="id" name="id" maxlength="9" required>
+					<br>
+					<br>
+					<br>
+					<br>
+					<label for="date">Año de nacimiento:</label>
+					<input type="number" id="date" name="date" min="1900" max="2018" required>
+					<br>
+					<br>
+					<br>
+					<br>
+				</fieldset>
+			</div>
+			<div id="divdatosdecontacto">
+				<fieldset>
+					<legend>Datos de contacto:</legend>
+					<br>
+					<br>
+					<div id="centrar">
+						<label for="contacto" id="tamaño"> Nos pondremos en contacto contigo lo antes posible.
+							<br>Por favor,indicanos donde. </label>
+						<br>
+						<br>
+						<input type="radio" name="contacto" id="telefono">
+						<img src="img/telefono.png" width="20px"> Teléfono
+						<br>
+						<br>
+						<input type="radio" name="contacto" id="email">
+						<img src="img/sobre.png" width="20px"> E_mail
+						<br>
+						<br>
+						<input type="radio" name="contacto" id="correopostal">
+						<img src="img/buzon.png" width="20px"> Correo postal
+						<br>
+						<br>
+					</div>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email">
+					<br>
+					<br>
+					<br>
+					<br>
+					<label for="telefono">Móvil:</label>
+					<input type="number" id="movil" name="movil">
+					<br>
+					<br>
+					<br>
+					<br>
+					<label for="correo">Correo postal:</label>
+					<input type="text " id="correo" name="correo">
+					<br>
+					<br>
+					<br>
+					<br>
+					<div id="cursos">
+						<div id="centrar">
+							<br>
+							<br>
+							<label for="curso" placeholder="Selecione curso" id="tamaño">Nuestros cursos:</label>
+						</div>
+
+						<br>
+						<br>
+						<input type="checkbox" id="curso1" name="curso">
+						<label>HTML5 300 €</label>
+						<br>
+						<input type="checkbox" id="curso2" name="curso">
+						<label>CSS3 200 €</label>
+						<br>
+						<input type="checkbox" id="curso3" name="curso">
+						<label>INTRODUCCION A JAVASCRIPT 500 €</label>
+						<br>
+						<input type="checkbox" id="curso4" name="curso">
+						<label>JAVASCRIPT AVANZADO 400 €</label>
+						<br>
+						<input type="checkbox" id="curso5" name="curso">
+						<label>BOOTSTRAP 200 €</label>
+						<br>
+						<input type="checkbox" id="curso6" name="curso">
+						<label>JQUERY 300 €</label>
+						<br>
+						<input type="checkbox" id="curso7" name="curso">
+						<label>ANGULAR 5.800 €</label>
+						<br>
+						<br>
+					</div>
+					<br>
+					<br>
+					<div id="calculo">
+						<input type="button" value="Enviar" id="enviar" class="boton">
+					</div>
+					<div id="check">
+						<input type="button" value="Validar" id="validate" class="boton" onclick="validar()">
+						<br>
+						<br>
+						<div id="condiciones">
+							<label id="Aceptado" for="Aceptado">Acepto las Condiciones legales, del servicio y la Información básica de privacidad.</label>
+							<input type="checkbox" id="Aceptado" name="Aceptado">
+						</div>
+					</div>
+				</fieldset>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>

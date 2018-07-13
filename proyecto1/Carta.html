@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<title>Carta</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+		<style>
+	#menu ul{
+		list-style-type: none;
+		width:700px;
+		margin:auto;
+
+	}
+	#menu li{
+		float:left;
+		background-color:#AAAAAA;
+		padding:10px;
+	}
+	#menu li:hover{
+		background-color:#7ac5cd;
+		color:white;
+	}
+	#menu a{
+		text-decoration: none;
+		color:white;
+	}
+</style>
+	<script>
+		
+	</script>
+	<script type="text/javascript">
+
+		function iniciar(){
+		console.log("INICIANDO");
+		setTimeout(cargarImagen2,2000);
+		}
+
+		function cargarImagen2(){
+		var imagen = document.getElementById("foto");
+		imagen.src="img/2.PNG";
+			}
+
+	</script>
+	<style type="text/css">
+		#galeria{
+			width: 50%;
+			margin: auto;
+			float:center;
+		}
+	</style>
+</head>
+<body>
+	<div id="total">
+			<div id="menu">
+				<ul>
+					<a href="inicio.html"><li>INICIO</li></a>
+					<a href="Carta.html"><li>CARTA</li></a>
+					<a href="Cartadevinos.html"><li>CARTA DE VINOS</li></a>
+					<a href="RESERVA.html"><li>RESERVA</li></a>
+					<a href="dondeestamos.html"><li>DONDE ESTAMOS</li></a>
+				</ul>
+			</div>
+			<div id="cabecera">
+				<div id="logo"><h1><img src="img/d.png" width="110px">Dalia</h1></div>
+			</div>
+		</div>
+		<body onload="iniciar()">
+	<div id="galeria"bgcolor="#D0D9E6">
+		<img id="foto" src="img/1.PNG" width="800px">
+	</div>
+		<div id="menudalias">
+			<FIELDSET>
+				<LEGEND>NUESTRO MEJOR SELECCIÓN PARA TI:</LEGEND>
+		<h4 class="tg">Para compartir</h4>
+		<ul class="mg">
+		<li>Espárragos blancos 12,50 €</li>
+		<li>Cestitas de centollo 10 €</li>
+		<li>Gyozas japonesas con salsa Yakiniku 12 €</li>
+		<li>Alcachofas naturales confitadas.</li> 
+		<li>A la parrilla con vinagreta de piñones y miel de caña 13 €</li>
+		<li>Croquetas caseras de mejillón y wakame 11 €</li>
+		<li>Samosas de brandada 13 €</li>
+		<li>Vieiras gallegas a la plancha 14 €</li>
+		<li>Nuestra versión de huevos con chistorra 12 €</li>
+		</ul>
+		<h5 class="tg">Ensaladas Clarita</h5>
+		<ul class="mg">
+		<li>Ensalada de burratina de búfala 11 €</li>
+		<li>Ensalada de cecina, manzana y nueces 11 €</li>
+		<li>Ensalada de ahumados 12 €</li>
+		</ul>
+		<h6 class="tg">Arroces y pasta</h6>
+		<ul class="mg">
+		<li>Risotto de setas con trompetas de la muerte 14 €</li>
+		<li>Raviolis de calabaza 13 €</li>
+		<li>Nuestros linguinis con foie y trufa 14 €</li>
+		</ul>
+		<h7 class="tg">Nuestros pescados</h7>
+		<ul class="mg">
+		<li>Tartar de atún rojo marinado 15,50 €</li>
+		<li>Bacalao confitado 16,50€</li>
+		<li>Pulpo a la brasa 19 €</li>
+		<li>Nuestras carnes</li>
+		<li>Tartar de solomillo de ternera 17 €</li>
+		<li>Magret de pato a la miel y lima 18 €</li>
+		<li>Costilla de Duroc 15,00€</li>
+		<li>Hamburguesa de Angus con pan rústico 15 €</li>
+		<li>Lomo de vaca al grill 18 €</li>
+		</ul>
+		</FIELDSET>
+	
+</body>
+</html>

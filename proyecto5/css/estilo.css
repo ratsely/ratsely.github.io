@@ -1,0 +1,21 @@
+#controles{
+    position: fixed;
+    top:0px;
+    height:100px;
+    width:100%;
+    background-color: black;
+    opacity: 0.8;
+}
+#juegos img{
+    opacity:0.2;
+}
+body{
+    margin:0px;
+    padding-top:100px;
+}
+#controles img {
+    display: block;
+    height: 25%;
+    margin:1px;
+    background-color: rgb(27, 26, 29);
+}

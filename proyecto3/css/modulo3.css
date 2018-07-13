@@ -1,0 +1,55 @@
+
+
+h1{
+	font-family: 'Galada', cursive;
+	font-family: 'Indie Flower', cursive;
+	border-style: dashed;
+	border-color: #E50BBF;
+	background-color:#F9C3E7;
+	text-align: center;
+	padding: 20px;
+}
+form{
+	font-family: 'Song Myung', serif;
+	
+}
+legend{
+	font-size: 20px;
+	font-family: 'Song Myung', serif;
+}
+fieldset{
+	border-style:dashed;
+	border-color:black;
+}
+#imagen{
+	float:right;
+}
+#tamaño{
+	font-size:20px;
+}
+#centrar{
+	text-align: center;
+}
+#divdatospersonales{
+	background-color: #E7E4E6;
+	opacity: 0.9;
+}
+#divdatosdecontacto{
+	background-color: #E7E4E6;
+	opacity: 0.9;
+}
+#calculo{
+	float:right;
+}
+#condiciones{
+	background-color:black;
+	color:white;
+	opacity: 0.8;
+}
+#cursos{
+	font-family: 'Song Myung', serif;
+	font-family: 'Patua One', cursive;
+	background-color:#E458B6;
+	border-color: #E50BBF;
+	padding-left: 20px;
+}
